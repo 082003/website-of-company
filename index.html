@@ -1,0 +1,409 @@
+  <html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Architectural Company
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Montserrat', 'Roboto', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-30">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center">
+     <a class="flex items-center space-x-2" href="#">
+      <img alt="Architectural Company logo, stylized letter A in dark gray background" class="h-10 w-10" height="40" src="https://storage.googleapis.com/a1aa/image/f654c13c-ec6d-429e-5c6d-560170a3d881.jpg" width="40"/>
+      <span class="font-bold text-2xl text-gray-900">
+       Slip Tec
+      </span>
+     </a>
+     <div class="hidden md:flex space-x-8 font-semibold text-gray-700">
+      <a class="hover:text-indigo-600 transition" href="#home">
+       Home
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#about">
+       About
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#services">
+       Services
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#projects">
+       Projects
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#team">
+       Team
+      </a>
+      <a class="hover:text-indigo-600 transition" href="#contact">
+       Contact
+      </a>
+     </div>
+     <div class="md:hidden">
+      <button aria-label="Toggle menu" class="text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="menu-btn">
+       <i class="fas fa-bars fa-lg">
+       </i>
+      </button>
+     </div>
+    </div>
+   </div>
+   <div class="md:hidden bg-white shadow-md hidden px-4 pt-2 pb-4 space-y-2 font-semibold text-gray-700" id="mobile-menu">
+    <a class="block hover:text-indigo-600 transition" href="#home">
+     Home
+    </a>
+    <a class="block hover:text-indigo-600 transition" href="#about">
+     About
+    </a>
+    <a class="block hover:text-indigo-600 transition" href="#services">
+     Services
+    </a>
+    <a class="block hover:text-indigo-600 transition" href="#projects">
+     Projects
+    </a>
+    <a class="block hover:text-indigo-600 transition" href="#team">
+     Team
+    </a>
+    <a class="block hover:text-indigo-600 transition" href="#contact">
+     Contact
+    </a>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="pt-24 bg-white max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 flex flex-col-reverse md:flex-row items-center md:space-x-12" id="home">
+   <div class="w-full md:w-1/2 text-center md:text-left">
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">
+     Building Your Dreams
+     <br/>
+     Into Reality
+    </h1>
+    <p class="mt-6 text-gray-600 text-lg sm:text-xl max-w-md mx-auto md:mx-0">
+     We design innovative and sustainable architectural solutions that
+        inspire and transform spaces.
+    </p>
+    <a class="inline-block mt-8 px-8 py-3 bg-indigo-600 text-white font-semibold rounded-md shadow-md hover:bg-indigo-700 transition" href="#contact">
+     Get a Quote
+    </a>
+   </div>
+   <div class="w-full md:w-1/2 mb-10 md:mb-0">
+    <img alt="Modern architectural building exterior with glass and steel design, daytime with clear sky" class="rounded-lg shadow-lg mx-auto" height="400" src="https://storage.googleapis.com/a1aa/image/6e3b59de-17e9-4096-1085-d990195d1a01.jpg" width="600"/>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-20 bg-gray-100 rounded-t-3xl" id="about">
+   <div class="text-center max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold text-gray-900">
+     About Us
+    </h2>
+    <p class="mt-4 text-gray-700 text-lg leading-relaxed">
+     Slip Tec is a leading architectural firm dedicated to creating
+        innovative, sustainable, and aesthetically pleasing designs. With over
+        44 years of experience, our team of experts brings your vision to life
+        with precision and creativity.
+    </p>
+   </div>
+   <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Team collaboration meeting in modern office with architects discussing plans" class="mb-4 rounded-full" height="100" src="team 2.jpeg" width="100"/>
+     <h3 class="text-xl font-semibold text-gray-900 mb-2">
+      Our Team
+     </h3>
+     <p class="text-gray-600">
+      A diverse group of passionate architects, designers, and engineers
+          committed to excellence.
+     </p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Sustainable building concept sketch with green elements and eco-friendly design" class="mb-4 rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/b393bd09-87e7-4766-67eb-69441d1a65a0.jpg" width="100"/>
+     <h3 class="text-xl font-semibold text-gray-900 mb-2">
+      Sustainability
+     </h3>
+     <p class="text-gray-600">
+      We prioritize eco-friendly materials and energy-efficient designs to
+          reduce environmental impact.
+     </p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="3D architectural rendering on computer screen showing modern building design" class="mb-4 rounded-full" height="100" src="https://storage.googleapis.com/a1aa/image/f0aae24d-4ccf-4a45-8535-0057a49c340b.jpg" width="100"/>
+     <h3 class="text-xl font-semibold text-gray-900 mb-2">
+      Innovation
+     </h3>
+     <p class="text-gray-600">
+      Utilizing the latest technology and creative solutions to push design
+          boundaries.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Services Section -->
+  <section class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-20" id="services">
+   <div class="text-center max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold text-gray-900">
+     Our Services
+    </h2>
+    <p class="mt-4 text-gray-700 text-lg leading-relaxed">
+     From concept to completion, we offer a comprehensive range of
+        architectural services tailored to your needs.
+    </p>
+   </div>
+   <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Concept design sketch of a modern building with pencil and ruler" class="mb-4" height="90" src="https://storage.googleapis.com/a1aa/image/6ed6a32b-3eae-4044-9dd0-bcd8dad86c4b.jpg" width="90"/>
+     <h3 class="text-xl font-semibold text-gray-900 mb-2">
+      Concept Design
+     </h3>
+     <p class="text-gray-600">
+      Creative and functional architectural concepts tailored to your
+          vision.
+     </p>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Construction planning blueprint with measuring tools and architectural plans" class="mb-4" height="90" src="https://storage.googleapis.com/a1aa/image/26a3f217-c8cb-4597-9c05-b8c941f55d2d.jpg" width="90"/>
+     <h3 class="text-xl font-semibold text-gray-900 mb-2">
+      Project Planning
+     </h3>
+     <p class="text-gray-600">
+      Comprehensive planning and management to ensure smooth project delivery.
+     </p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Interior design concept with modern furniture and lighting" class="mb-4" height="90" src="https://storage.googleapis.com/a1aa/image/af555998-3069-41c0-a03c-43e1cf83b5c9.jpg" width="90"/>
+     <h3 class="text-xl font-semibold text-gray-900 mb-2">
+      Interior Design
+     </h3>
+     <p class="text-gray-600">
+      Stylish and functional interior designs that complement your architecture.
+     </p>
+    </div>
+
+ <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="3D model rendering of a building on a computer screen" class="mb-4" height="90" src="https://storage.googleapis.com/a1aa/image/0244c0ca-2469-47aa-679d-a26b3ecaaf85.jpg" width="90"/>
+     <h3 class="text-xl font-semibold text-gray-900 mb-2">
+      3D Modeling
+     </h3>
+     <p class="text-gray-600">
+      Detailed 3D renderings to visualize your project before construction.
+     </p>
+    </div>
+
+   </div>
+  </section>
+  <!-- Projects Section -->
+  <section class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-20 bg-gray-100 rounded-b-3xl" id="projects">
+   <div class="text-center max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold text-gray-900">
+     Our Projects
+    </h2>
+    <p class="mt-4 text-gray-700 text-lg leading-relaxed">
+     A showcase of some of our recent architectural masterpieces.
+    </p>
+   </div>
+   <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+     <img alt="Luxury residential villa with pool and modern architectural design, daytime" class="w-full h-48 object-cover" height="400" src="allhabad digi library.jpeg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Allahabad digital library
+      </h3>
+      <p class="text-gray-600">
+        The building contains sharp pillars and turrets of granite and sandstone. The building represents structural polychramy with hard works.
+      </p>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+     <img alt="Corporate office building with glass facade and green roof garden, urban setting" class="w-full h-48 object-cover" height="400" src="ram mandir.webp" width="600"/>
+     <div class="p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Ground floor of Ram Mandir
+      </h3>
+      <p class="text-gray-600">
+     Designed with divine energy and welcoming space designed to bring people together with flexible layouts.
+      </p>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+     <img alt="Modern art museum with unique geometric architecture and large glass windows" class="w-full h-48 object-cover" height="400" src="jodhpur construction.jpeg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Jodhpur Art
+      </h3>
+      <p class="text-gray-600">
+       A cultural landmark featuring bold geometric shapes and open gallery spaces.
+      </p>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+     <img alt="Urban residential complex with green spaces, balconies, and modern design" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/4c741a23-9f4e-489f-1a76-3b0f365001d6.jpg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Residential Complex
+      </h3>
+      <p class="text-gray-600">
+       Multi-family housing designed to foster community and integrate nature.
+      </p>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+     <img alt="Luxury hotel with contemporary architecture, pool area, and outdoor seating" class="w-full h-48 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/83764057-ac6b-4ef0-0a9f-2307a77d895d.jpg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Luxury Hotel
+      </h3>
+      <p class="text-gray-600">
+       Elegant hotel design combining comfort, style, and breathtaking views.
+      </p>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+     <img alt="Community center with open spaces, natural lighting, and modern architectural style" class="w-full h-48 object-cover" height="400" src="construction.jpeg" width="600"/>
+     <div class="p-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">
+       Construction  Center
+      </h3>
+      <p class="text-gray-600">
+       Significance of our labours .
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Team Section -->
+  <section class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-20" id="team">
+   <div class="text-center max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold text-gray-900">
+     Meet Our Team 
+    </h2>
+    <p class="mt-4 text-gray-700 text-lg leading-relaxed">
+     Our talented architects and designers who bring your projects to life.
+    </p>
+   </div>
+   <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Portrait of female architect with short hair and glasses smiling" class="rounded-full mb-4 w-36 h-36 object-cover" height="150" src="anshul bansal.jpeg" width="150"/>
+     <h3 class="text-xl font-semibold text-gray-900">
+      Anshul Bansal 
+     </h3>
+     <p class="text-indigo-600 font-medium mb-2">
+      Lead Architect
+     </p>
+     <p class="text-gray-600 text-sm">
+      Expert in sustainable design and urban planning with 15 years of experience.
+     </p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Portrait of male architect with beard and suit smiling" class="rounded-full mb-4 w-36 h-36 object-cover" height="150" src="satyam b.jpg" width="150"/>
+     <h3 class="text-xl font-semibold text-gray-900">
+      Satyam Kushwaha
+     </h3>
+     <p class="text-indigo-600 font-medium mb-2">
+      Project Manager
+     </p>
+     <p class="text-gray-600 text-sm">
+      Skilled in project coordination and client communication ensuring timely delivery.
+     </p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Portrait of female interior designer with curly hair smiling" class="rounded-full mb-4 w-36 h-36 object-cover" height="150" src="parul pandey.jpeg" width="150"/>
+     <h3 class="text-xl font-semibold text-gray-900">
+      Parul Pandey
+     </h3>
+     <p class="text-indigo-600 font-medium mb-2">
+      Interior Designer
+     </p>
+     <p class="text-gray-600 text-sm">
+      Passionate about creating beautiful and functional interior spaces.
+     </p>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+     <img alt="Portrait of male structural engineer with short hair smiling" class="rounded-full mb-4 w-36 h-36 object-cover" height="150" src="tanish chouharaey.jpeg" width="150"/>
+     <h3 class="text-xl font-semibold text-gray-900">
+      Tanish Choudhary
+     </h3>
+     <p class="text-indigo-600 font-medium mb-2">
+      Structural Engineer
+     </p>
+     <p class="text-gray-600 text-sm">
+      Ensuring safety and durability through expert structural design.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 py-20 bg-indigo-600 rounded-t-3xl text-white" id="contact">
+   <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">
+     Get in Touch
+    </h2>
+    <p class="mb-10 text-indigo-200">
+     Ready to start your project? Contact us today for a consultation.
+    </p>
+    <form class="space-y-6 text-gray-900 bg-white rounded-lg p-8 shadow-lg" id="contact-form" novalidate="">
+     <div>
+      <label class="block font-semibold mb-1" for="name">
+       Name
+      </label>
+      <input class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block font-semibold mb-1" for="email">
+       Email
+      </label>
+      <input class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block font-semibold mb-1" for="message">
+       Message
+      </label>
+      <textarea class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600" id="message" name="message" placeholder="Write your message here" required="" rows="4"></textarea>
+     </div>
+     <button class="w-full bg-indigo-600 text-white font-semibold py-3 rounded-md hover:bg-indigo-700 transition" type="submit">
+      Send Message
+     </button>
+     <p class="mt-4 text-center text-sm font-semibold" id="form-message">
+     </p>
+    </form>
+   </div>
+  </section>
+  <!-- Footer -->
+     <footer class="bg-gray-900 text-gray-300 py-10">
+   <div class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-16 flex flex-col md:flex-row justify-between items-center">
+    <div class="mb-6 md:mb-0 flex items-center space-x-3">
+     <img alt="Architectural Company logo, stylized letter A in dark gray background" class="h-10 w-10" height="40" src="https://storage.googleapis.com/a1aa/image/f654c13c-ec6d-429e-5c6d-560170a3d881.jpg" width="40"/>
+     <span class="font-bold text-xl">
+      Slip Tec
+     </span>
+    </div>
+    <div class="flex space-x-6 text-lg">
+     <a aria-label="Facebook" class="hover:text-indigo-500 transition" href="https://facebook.com" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-indigo-500 transition" href="https://twitter.com" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-indigo-500 transition" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="hover:text-indigo-500 transition" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+   </div>
+   <p class="mt-6 text-center text-sm text-gray-500">
+    © 2025 Slip Tec. All rights reserved.
+          <p>Location: C39, Sector 15, Vasundhara, Ghaziabad, Uttar Pradesh 201012</p>
+   </div>
+  </footer>
+  <script src="script.js"></script>
+ </body>
+</html>
